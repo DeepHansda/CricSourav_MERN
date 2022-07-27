@@ -1,0 +1,123 @@
+.App {
+  max-width: 1080px;
+  margin: 0 auto;
+  background: hsl(240, 22%, 96%);
+  height: 100vh;
+}
+.main-app-container {
+  position: relative;
+}
+
+.App .app-header {
+  width: 100%;
+  box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  background-color: #fff;
+}
+.App .app-header p {
+  font-size: 45px;
+  font-weight: 900;
+}
+.App .main-content {
+  padding: 15px;
+}
+.App .title-box {
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  margin-top: 25px;
+}
+.App .title-box .title-img img {
+  max-width: 100%;
+}
+.App .title-box .title-text {
+  background: #000000;
+  padding: 15px;
+}
+.App .title-box .title-text .main-title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.App .main-intro {
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 10px;
+}
+.App .main-intro p {
+  color: #fff;
+  font-weight: 300;
+}
+
+.article {
+  padding: 15px 10px;
+  margin: 10px 0px;
+  font-family: "Noto Sans", sans-serif;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.article3 {
+  background: #000;
+  color: #fff;
+}
+.footer-container {
+  padding: 0 15px;
+}
+.footer {
+  width: 100%;
+  padding: 15px 10px;
+  text-align: center;
+  font: normal bold 16px "Poppins", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+@media screen and (min-width: 600px) {
+  .ads {
+    margin: 20px 0px;
+  }
+  .add-contact-container {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .App {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  }
+  .header-container {
+    padding: 0 15px;
+  }
+  .main-app-container {
+    flex: 8 0 75%;
+    overflow-y: scroll;
+  }
+  .app-ads-container {
+    flex: 2 0 25%;
+    padding: 0 10px;
+  }
+  .add-contact-container {
+    width: 100%;
+  }
+  .App .title-box {
+    display: flex;
+  }
+  .App .title-box .title-text {
+    flex: 50%;
+  }
+  .App .title-box .title-img {
+    flex: 50%;
+  }
+  .header-contact-bar {
+    width:300px
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* .main-app-container{
+    flex:60%
+  }
+  .app-ads-container{
+    flex:20%;
+  } */
+}

@@ -1,0 +1,40 @@
+.contact {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  box-shadow: 1px 1px 20px  rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.contact-title p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px 0;
+}
+.contact .contact-form .main-form {
+  width: 100%;
+}
+.contact .contact-form .main-form input {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 5px;
+  font-family: "Loto Sans", sans-serif;
+  font-size: 12px;
+}
+.contact .contact-form .main-form input:focus {
+  outline: none;
+  border: 1px solid rgb(84, 13, 110);
+}
+.form-button-container{
+  margin:10px 0px;
+}
+.form-button-container button {
+  padding: 5px 15px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(84, 13, 110);
+  border: none;
+}

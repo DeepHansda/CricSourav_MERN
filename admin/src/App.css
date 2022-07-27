@@ -1,0 +1,9 @@
+.App {
+}
+.drawer-container {
+  position: absolute;
+}
+.main-content{
+  width: 100%;
+  margin:10px 0px
+}

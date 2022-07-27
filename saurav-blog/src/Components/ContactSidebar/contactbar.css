@@ -1,0 +1,32 @@
+.contactBar {
+  width: 100%;
+  height: fit-content;
+  padding: 0 50px;
+  z-index: 101;
+}
+
+.contactBar .social-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactBar .social-container li,
+.call-container li {
+  padding: 0px 5px;
+}
+
+.contactBar .social-container li a p {
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.contactBar .social-container li a p:hover {
+  transform: rotate(30deg);
+}
+
+@media screen and (min-width: 12px) {
+  .contactBar .social-container li a p {
+    font-size: 20px;
+  }
+}

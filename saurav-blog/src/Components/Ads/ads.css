@@ -1,0 +1,17 @@
+.app-ads-list ul li img{
+    width: 100%;
+}
+.app-ads-list ul li{
+    width: 200px;
+    margin:10px auto;
+}
+.app-ads-list ul {
+    width: 100%;
+    text-align: center;
+}
+
+
+.add-container{
+    overflow-y: scroll;
+
+}

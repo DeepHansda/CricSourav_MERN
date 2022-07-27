@@ -1,0 +1,4 @@
+backend/.env
+backend/node_modules
+admin/node_modules
+saurav-blog/node_modules
