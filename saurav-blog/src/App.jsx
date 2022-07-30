@@ -63,7 +63,7 @@ function App() {
           </div>
           <div className="title-text">
             <div className="main-title">
-              <h1>Top 15 Fantasy Apps To Earn Money Easily.</h1>
+              <h1>Top {contents.length} Fantasy Apps To Earn Money Easily.</h1>
             </div>
 
             <div className="main-intro">
