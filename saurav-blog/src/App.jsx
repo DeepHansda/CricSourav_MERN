@@ -13,7 +13,7 @@ import axios from 'axios'
 
 
 export const client = axios.create({
-  baseURL:'http://localhost:3400/api/',
+  baseURL:'https://saurav-backend.herokuapp.com/api/',
   headers:{
    'content-Type': 'application/json'
   }

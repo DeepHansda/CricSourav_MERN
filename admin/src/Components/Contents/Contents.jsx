@@ -170,10 +170,10 @@ export default function Contents() {
                         <TableRow key={index}>
                           <TableCell>{data.number || "--"}</TableCell>
                           <TableCell>{data.title || "--"}</TableCell>
-                          <TableCell>{data.desc || "--"}</TableCell>
-                          <TableCell>{data.addi_desc || "--"}</TableCell>
-                          <TableCell>{data.download_link || "--"}</TableCell>
-                          <TableCell>{data.referral_code || "--"}</TableCell>
+                          <TableCell><p style={{minWidth:'160px'}}>{data.desc || "--"}</p></TableCell>
+                          <TableCell><p style={{minWidth:'160px'}}>{data.addi_desc || "--"}</p></TableCell>
+                          <TableCell><p style={{minWidth:'160px'}}>{data.download_link || "--"}</p></TableCell>
+                          <TableCell><p style={{minWidth:'160px'}}>{data.referral_code || "--"}</p></TableCell>
                           <TableCell>{data.signup_bonus || "--"}</TableCell>
                           <TableCell>{data.refer_bonus || "--"}</TableCell>
                           <TableCell>

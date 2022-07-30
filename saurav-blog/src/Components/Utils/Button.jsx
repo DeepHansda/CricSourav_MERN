@@ -11,7 +11,7 @@ export default function Button() {
     const telegramButtonMain = {
         backgroundColor:"#004a7f",
         borderRadius:'50px',
-        padding: ' 5px 10px',
+        padding: ' 8px 20px',
         width: '100%',
         color:'#fff',
         border:'none',

@@ -8,6 +8,7 @@ import {
   FiGithub,
 } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
 import "./contactbar.css";
 function ContactBar() {
   return (
@@ -15,7 +16,17 @@ function ContactBar() {
       <div className="social-container">
         <li>
           <a
-            href="https://api.whatsapp.com/send?phone=+919647750384"
+            href="https://t.me/cricsourav"
+            target="_blank"
+          >
+            <p>
+              <FaTelegramPlane />
+            </p>
+          </a>
+        </li>
+        <li>
+        <a
+            href="https://api.whatsapp.com/send?phone=+919749314634"
             target="_blank"
           >
             <p>
@@ -24,29 +35,20 @@ function ContactBar() {
           </a>
         </li>
         <li>
-          <a
-            href="https://www.linkedin.com/in/deep-hansda-44627a20a/"
-            target="_blank"
-          >
-            <p>
-              <FiLinkedin />
-            </p>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/DeepHansda" target="_blank">
-            <p>
-              <FiGithub />
-            </p>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/deep.hansda.7146" target="_blank">
+          <a href="https://m.facebook.com/100036272386951/" target="_blank">
             <p>
               <FiFacebook />
             </p>
           </a>
         </li>
+        <li>
+          <a href="#" target="_blank">
+            <p>
+              <FiInstagram />
+            </p>
+          </a>
+        </li>
+        
       </div>
     </div>
   );

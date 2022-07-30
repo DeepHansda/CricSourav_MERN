@@ -25,9 +25,9 @@ export default function NavBar({handleDrawerOpen}) {
             <BiMenu />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Admin Panel
           </Typography>
-          <Button color="inherit">Login</Button>
+          
         </Toolbar>
       </AppBar>
     </Box>

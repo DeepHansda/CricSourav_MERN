@@ -10,7 +10,7 @@ import NavBar from "./Components/NavBar/NavBar";
 
 
 const client = axios.create({
-   baseURL:'http://localhost:3400/api/',
+   baseURL:'https://saurav-backend.herokuapp.com/api/',
    headers:{
     'content-Type': 'application/json'
    }
